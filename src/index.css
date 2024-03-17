@@ -14,7 +14,7 @@
         @apply font-[Mulish];
         @apply text-[#555];
     }
-    header {
+    h1, h2, h3 {
         @apply font-[Poppins];
     }
 }
