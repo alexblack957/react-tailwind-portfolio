@@ -3,7 +3,7 @@ import gradImage from '../assets/graduation.jpg'
 const Education = () => {
   return (
     <div name='education' className='w-full'>
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col-reverse md:flex-row-reverse justify-center items-center h-full gap-2 md:gap-12 py-8 md:py-32'>
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col-reverse md:flex-row-reverse justify-center items-center h-full gap-2 md:gap-12 py-8 md:py-24'>
           <div className='text-primary font-[700] max-w-[450px] align-top'>
             <h1 className='text-l text-center md:text-xl pt-2 md:text-left text-secondary'>EDUCATION</h1>
             <h1 className='text-xl text-center md:text-2xl py-1 md:text-left'>Bachelor of Computer Science, <br></br>University of Queensland</h1>
