@@ -9,7 +9,7 @@ const Skills = () => {
         <div className='py-12 md:py-24 px-8 max-w-[1000px] mx-auto justify-center flex flex-col'>
           <div className="pb-2">
               <h1 className='text-l  font-[800] text-center md:text-xl py-1  text-secondary'>Skills</h1>
-              <h1 className='text-xl text-center md:text-2xl pt-1 pb-4 text-primary font-[700] '>What I Bring to the Table</h1>
+              <h1 className='text-xl text-center md:text-2xl  pb-4 text-primary font-[700] '>What I Bring to the Table</h1>
           </div>
           <div className='md:hidden font-[600]'>
             <Tabs>

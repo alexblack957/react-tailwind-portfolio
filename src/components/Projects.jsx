@@ -7,10 +7,10 @@ import { IoMdPin } from "react-icons/io";
 const Projects = () => {
   return (
     <div name='projects' className='w-full bg-[#f9f9f9]'>
-        <div className='py-8 md:py-32 px-8 max-w-[1000px] mx-auto justify-center flex flex-col '>
+        <div className='py-8 md:py-24 px-8 max-w-[1000px] mx-auto justify-center flex flex-col '>
             <div className="pb-2">
                 <h1 className='text-l  font-[800] text-center md:text-xl py-1  text-secondary'>PROJECTS</h1>
-                <p className='text-center font-[500]  text-primary text-[18px]'> Formal education is great - but I'm proudest of my personal projects that have brought value to people's lives.</p>
+                <p className='text-center font-[500]  text-primary text-[18px]'> My personal projects that have brought meaningful value to people's lives.</p>
             </div>
             <div className='pb-4'>
                 <div className='bg-primary text-white rounded-xl py-2 px-4 mt-4 mb-2 md:py-3 flex flex-row justify-between'>
@@ -77,7 +77,7 @@ const Projects = () => {
 
                             <h1 className='text-sm  font-[800] text-left md:text-l py-1  text-secondary'>My Role</h1>
                             <ul className='font-[600] list-disc text-[#555] list-outside px-4'>
-                                <li> Redesigned entire site layout.</li>
+                                <li> Rehauled entire site theme and layout.</li>
                                 <li> Performed A/B split testing on key website elements.</li>
                                 <li> Tripled the website conversion rate over the course of 6 months.</li>
                             </ul>
