@@ -3,15 +3,25 @@ import gameLoaded from '../assets/gameloadedsquare.png'
 import LatteLogo from '../assets/3amLogo.png'
 import { FaExternalLinkAlt} from "react-icons/fa";
 import { IoMdPin } from "react-icons/io";
+import AnimateOnScroll from '../assets/AnimateOnScroll.tsx';
+
+
+
+
 
 const Projects = () => {
   return (
     <div name='projects' className='w-full bg-[#f9f9f9]'>
-        <div className='py-8 md:py-24 px-8 max-w-[1000px] mx-auto justify-center flex flex-col '>
+        
+        <div className='py-8 md:py-24 px-8 max-w-[1000px] mx-auto justify-center flex flex-col select-none '>
+            <AnimateOnScroll>
             <div className="pb-2">
                 <h1 className='text-l  font-[800] text-center md:text-xl py-1  text-secondary'>PROJECTS</h1>
-                <p className='text-center font-[500]  text-primary text-[18px]'> My personal projects that have brought meaningful value to people's lives.</p>
+                <p className='text-center font-[500]  text-primary text-[18px]'> Personal projects that have brought meaningful value to people's lives.</p>
             </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll>
             <div className='pb-4'>
                 <div className='bg-primary text-white rounded-xl py-2 px-4 mt-4 mb-2 md:py-3 flex flex-row justify-between'>
                     <h2 className=' font-[600]'>GameLoaded</h2>
@@ -32,8 +42,8 @@ const Projects = () => {
                         </div>
 
                         <div className='flex flex-row gap-2'>
-                            <p className='border-2 w-fit font-[700] p-1 rounded-lg'>Lua</p>
-                            <p className='border-2 w-fit font-[700] p-1 rounded-lg'>Firebase</p>
+                            <p className='border-2 w-fit font-[700] p-1 rounded-lg hover:text-white hover:bg-secondary hover:border-white'>Lua</p>
+                            <p className='border-2 w-fit font-[700] p-1 rounded-lg hover:text-white hover:bg-secondary hover:border-white'>Firebase</p>
                         </div>
                     </div>
                     <div className='flex flex-row md:flex-col gap-4 '>
@@ -61,7 +71,10 @@ const Projects = () => {
                 </div>
 
             </div>
+            </AnimateOnScroll>
 
+
+            <AnimateOnScroll>
             <div>
                 <div className='bg-primary text-white rounded-xl py-2 px-4 mt-4 mb-2 md:py-3 flex flex-row justify-between'>
                     <h2 className=' font-[600]'>3am Latte</h2>
@@ -84,10 +97,10 @@ const Projects = () => {
                         </div>
 
                         <div className='flex flex-row gap-2'>
-                            <p className='border-2 w-fit font-[700] p-1 rounded-lg'>Shopify</p>
-                            <p className='border-2 w-fit font-[700] p-1 rounded-lg'>Liquid</p>
-                            <p className='border-2 w-fit font-[700] p-1 rounded-lg'>HTML</p>
-                            <p className='border-2 w-fit font-[700] p-1 rounded-lg'>CSS</p>
+                            <p className='border-2 w-fit font-[700] py-1 px-2 rounded-lg hover:text-white hover:bg-secondary hover:border-white'>Shopify</p>
+                            <p className='border-2 w-fit font-[700] p-1 rounded-lg hover:text-white hover:bg-secondary hover:border-white'>Liquid</p>
+                            <p className='border-2 w-fit font-[700] p-1 rounded-lg hover:text-white hover:bg-secondary hover:border-white'>HTML</p>
+                            <p className='border-2 w-fit font-[700] p-1 rounded-lg hover:text-white hover:bg-secondary hover:border-white'>CSS</p>
                         </div>
                     </div>
                     <div className='flex flex-row md:flex-col gap-4 '>
@@ -115,6 +128,7 @@ const Projects = () => {
                 </div>
 
             </div>
+            </AnimateOnScroll>
         </div>
     </div>
   )

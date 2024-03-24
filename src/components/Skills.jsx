@@ -2,15 +2,21 @@ import React from 'react'
 import {FaCheck} from 'react-icons/fa'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import AnimateOnScroll from '../assets/AnimateOnScroll.tsx';
 
 const Skills = () => {
   return (
     <div name='skills' className='w-full bg-white'>
+
         <div className='py-12 md:py-24 px-8 max-w-[1000px] mx-auto justify-center flex flex-col'>
           <div className="pb-2">
+            <AnimateOnScroll>
               <h1 className='text-l  font-[800] text-center md:text-xl py-1  text-secondary'>Skills</h1>
-              <h1 className='text-xl text-center md:text-2xl  pb-4 text-primary font-[700] '>What I Bring to the Table</h1>
+              <h1 className='text-xl text-center md:text-2xl  pb-4 md:pb-6 text-primary font-[700] '>What I Bring to the Table</h1>
+            </AnimateOnScroll>
           </div>
+
+          <AnimateOnScroll>
           <div className='md:hidden font-[600]'>
             <Tabs>
               <TabList>
@@ -67,10 +73,11 @@ const Skills = () => {
             </TabPanel>
           </Tabs>
           </div>
+          </AnimateOnScroll>
 
-
+          <AnimateOnScroll>
           <div className="hidden md:flex md:flex-row justify-between text-lg grow-0 gap-8 font-[500]">
-            <div className='basis-1/3'>
+            <div className='basis-1/3 hover:scale-110 hover:ease-in-out duration-300 cursor-default select-none'>
               <h1 className='text-center font-[600] text-lg pb-1'>Technologies</h1>
               <ul>
                 <li className='flex flex-row gap-2 pb-2'>
@@ -87,7 +94,7 @@ const Skills = () => {
                 </li>
               </ul>
             </div>
-            <div className='basis-1/3'>
+            <div className='basis-1/3 hover:scale-110 hover:ease-in-out duration-300 cursor-default select-none'>
               <h1 className='text-center font-[600] text-lg pb-1'>Soft Skills</h1>
               <ul>
                 <li className='flex flex-row gap-2 pb-2'>
@@ -105,7 +112,7 @@ const Skills = () => {
                 </li>
               </ul>
             </div>
-            <div className='basis-1/3'>
+            <div className='basis-1/3 hover:scale-110 hover:ease-in-out duration-300 cursor-default select-none'>
               <h1 className='text-center font-[600] text-lg pb-1'>Knowledge</h1>
               <ul className=''>
                 <li className='flex flex-row gap-2 pb-2'>
@@ -119,6 +126,7 @@ const Skills = () => {
               </ul>
             </div>
           </div>
+          </AnimateOnScroll>
         </div>
     </div>
   )
